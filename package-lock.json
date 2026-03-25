@@ -1,0 +1,12 @@
+{
+  "name": "DOMINION_MD_BOT",
+  "version": "1.0.0",
+  "description": "Dominion Telegram Bot V5",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.61.0"
+  }
+}
