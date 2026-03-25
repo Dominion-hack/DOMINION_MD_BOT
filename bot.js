@@ -1,7 +1,7 @@
 const TelegramBot = require('node-telegram-bot-api');
 const express = require('express');
 
-const TOKEN = '8751562394:AAGPAESSjoO73vfa1D971KZvYeBXamcaBP8';
+const TOKEN = '8638010782:AAGgfbsL-fDFshnIzclvD35IkrAxnQbTImw';
 const bot = new TelegramBot(TOKEN, { polling: true });
 
 // ===== RENDER FIX =====
