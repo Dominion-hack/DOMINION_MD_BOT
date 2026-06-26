@@ -379,6 +379,7 @@ app.post("/send", async (req, res) => {
 });
 
 bot.launch();
+console.log("🤖 Bot is running...");
 
 app.listen(PORT, () => {
   console.log("Server Running On Port " + PORT);
