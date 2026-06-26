@@ -1,7 +1,7 @@
 const express = require("express");
 const { Telegraf } = require("telegraf");
 
-const BOT_TOKEN = "8709022559:AAFpL8BRVBaNdq1wn9jz-D4JXXXjcLy_XVo";
+const BOT_TOKEN = "8784351847:AAHDNm1zYmIuqELNJt8csWvQZu4lQySC_jY";
 const PORT = process.env.PORT || 3000;
 
 const bot = new Telegraf(BOT_TOKEN);
