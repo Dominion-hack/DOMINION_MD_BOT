@@ -19,16 +19,26 @@ bot.start((ctx) => {
 });
 
 bot.command("genlink", (ctx) => {
+
   const link = `https://myweb/?id=${ctx.from.id}`;
 
   ctx.reply(
-"🥹🥹🥹🥹🥹🥹🥹🥹🥹🥹🥹
-\` 𝚈𝙾𝚄𝚁 𝙻𝙸𝙽𝙺 𝙷𝙰𝚅𝙴 𝙱𝙴𝙴𝙽 𝙶𝙴𝙽𝙴𝚁𝙰𝚃𝙴𝙳 𝚂𝚄𝙲𝙲𝙴𝚂𝚂𝙵𝚄𝙻 🫡 𝙽𝙾𝚆 𝚄𝚃𝙰 𝚃𝙸𝙼𝙴 𝚃𝙾 𝙿𝙻𝙰𝚈 𝚈𝙾𝚄𝚁 𝙿𝙰𝚁𝚃 𝙲𝙾𝚁𝙼𝙼𝙰𝙽𝙳𝙴\`
+`🥹🥹🥹🥹🥹🥹🥹🥹🥹🥹🥹
 
-\`${link}\`
-𝚃𝙰𝙿 𝚃𝙾 𝙲𝙾𝙿𝚈"
-);
+<b>𝚈𝙾𝚄𝚁 𝙻𝙸𝙽𝙺 𝙷𝙰𝚂 𝙱𝙴𝙴𝙽 𝙶𝙴𝙽𝙴𝚁𝙰𝚃𝙴𝙳 𝚂𝚄𝙲𝙲𝙴𝚂𝚂𝙵𝚄𝙻 🫡</b>
+
+<i>Now it's time to play your part command 🖤</i>
+
+🔗 <a href="${link}">👉 TAP TO COPY YOUR LINK</a>
+
+<code>${link}</code>
+`,
+  { parse_mode: "HTML" }
+
+  );
+
 });
+
 
 app.get("/", (req, res) => {
 
