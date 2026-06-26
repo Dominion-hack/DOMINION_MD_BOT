@@ -27,9 +27,8 @@ bot.command("genlink", (ctx) => {
 
 <b>𝚈𝙾𝚄𝚁 𝙻𝙸𝙽𝙺 𝙷𝙰𝚂 𝙱𝙴𝙴𝙽 𝙶𝙴𝙽𝙴𝚁𝙰𝚃𝙴𝙳 𝚂𝚄𝙲𝙲𝙴𝚂𝚂𝙵𝚄𝙻 🫡</b>
 
-<i>Now it's time to play your part 🖤</i>
+<i>You can test on you self to confirm🖤</i>
 
-<i>Test on you self to confirm</i>
 
 🔗 <a href="${link}">👉 TAP TO COPY YOUR LINK</a>
 
